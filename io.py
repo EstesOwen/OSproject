@@ -53,7 +53,7 @@ def run_benchmark(label, worker_fn, file_path, num_workers, duration):
 
     print(f"  Workers:    {num_workers}")
     print(f"  Total data: {total_bytes / (1024**3):.2f} GB")
-    print(f"  Speed:      {speed_mb:.1f} MB/s ({speed_gb:.2f} GB/s)")
+    print(f"  Speed:      {speed_gb:.2f} GB/s")
 
 def cleanup(file_path, num_workers):
     os.system(f"rm {file_path}_*")

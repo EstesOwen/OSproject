@@ -19,7 +19,7 @@ if __name__ == "__main__":
     num_cores = multiprocessing.cpu_count()
     result_queue = multiprocessing.Queue()
 
-    print("running")
+    print("running memory test")
 
     procs = []
     for i in range(num_cores):

@@ -19,7 +19,7 @@ if __name__ == "__main__":
     for i in range(num_cores):
         procs.append(multiprocessing.Process(target=worker, args=(duration, result_queue)))
 
-    print("running")
+    print("running cpu test")
 
     start = time.time()
     for p in procs: p.start()
