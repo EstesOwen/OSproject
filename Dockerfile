@@ -4,6 +4,6 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir numpy
 
-COPY cpu.py better_memory.py io.py ./
+COPY cpu.py memory.py io.py ./
 
-CMD ["sh", "-c", "python cpu.py && python io.py && python better_memory.py"]
+CMD ["sh", "-c", "python3 cpu.py && python3 io.py && python3 memory.py"]
