@@ -12,6 +12,8 @@ if(__name__ == "__main__"):
         # run multiple times
         runs = int(input("Number of runs: "))
 
+        print()
+
         # cpu test
         cpu_results = {}
         cores = 0
