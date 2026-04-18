@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-def bandwidth_benchmark():
+def memory_benchmark():
     # large array — well beyond L3 cache size (~1GB)
     arr = np.random.rand(128 * 1024 * 1024)
     DURATION = 30
@@ -18,8 +18,12 @@ def bandwidth_benchmark():
     total_gb = count * bytes_per_op
     bandwidth = total_gb / DURATION
 
-    print(f"Bandwidth: {bandwidth:.2f} GB/s")
+    # print(f"Bandwidth: {bandwidth:.2f} GB/s")
+    return {
+        "Total GB": total_gb,
+        "Bandwidth(GB/s)": bandwidth
+    }
 
 if __name__ == "__main__":
-    print("running memory test")
-    bandwidth_benchmark()
+    # print("running memory test")
+    memory_benchmark()

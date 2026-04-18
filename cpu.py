@@ -10,7 +10,7 @@ def worker(duration, result_queue):
     result_queue.put(count)
     return
 
-if __name__ == "__main__":
+def cpu_main():
     duration = 30  # seconds
     num_cores = multiprocessing.cpu_count()
     result_queue = multiprocessing.Queue()
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     for i in range(num_cores):
         procs.append(multiprocessing.Process(target=worker, args=(duration, result_queue)))
 
-    print("running cpu test")
+    # print("running cpu test")
 
     start = time.time()
     for p in procs: p.start()
@@ -29,8 +29,16 @@ if __name__ == "__main__":
     results = [result_queue.get() for i in procs]
     total = sum(results)
 
-    print(f"Cores:     {num_cores}")
-    print(f"Total ops: {total:,}")
-    print(f"Ops/core:  {total // num_cores:,}")
-    print(f"Ops/sec:   {int(total / elapsed):,}")
+    # print(f"Cores:     {num_cores}")
+    # print(f"Total ops: {total:,}")
+    # print(f"Ops/core:  {total // num_cores:,}")
+    # print(f"Ops/sec:   {int(total / elapsed):,}")
+    return {
+        "Cores": num_cores,
+        "Total Ops": total,
+        "Ops/core": (total // num_cores),
+        "Ops/sec": (int(total/elapsed))
+    }
 
+if(__name__ == "__main__"):
+    cpu_main()
