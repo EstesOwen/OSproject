@@ -1,0 +1,1 @@
+run something like docker run -v ~/VSCodeFiles/theoryofCS/OSproject:/app/logs os-proj
