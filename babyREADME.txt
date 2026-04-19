@@ -1,1 +1,1 @@
-run something like docker run -v ~/VSCodeFiles/theoryofCS/OSproject:/app/logs os-proj
+run something like docker run -v ~/VSCodeFiles/theoryofCS/OSproject/logs:/app/logs os-proj
