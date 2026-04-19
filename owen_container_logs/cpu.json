@@ -1,0 +1,68 @@
+{
+  "Run 1": {
+    "Cores": 22,
+    "Total Ops": 100955,
+    "Ops/core": 4588,
+    "Ops/sec": 3338
+  },
+  "Run 2": {
+    "Cores": 22,
+    "Total Ops": 69763,
+    "Ops/core": 3171,
+    "Ops/sec": 2317
+  },
+  "Run 3": {
+    "Cores": 22,
+    "Total Ops": 73148,
+    "Ops/core": 3324,
+    "Ops/sec": 2431
+  },
+  "Run 4": {
+    "Cores": 22,
+    "Total Ops": 73771,
+    "Ops/core": 3353,
+    "Ops/sec": 2450
+  },
+  "Run 5": {
+    "Cores": 22,
+    "Total Ops": 74309,
+    "Ops/core": 3377,
+    "Ops/sec": 2466
+  },
+  "Run 6": {
+    "Cores": 22,
+    "Total Ops": 73134,
+    "Ops/core": 3324,
+    "Ops/sec": 2429
+  },
+  "Run 7": {
+    "Cores": 22,
+    "Total Ops": 73239,
+    "Ops/core": 3329,
+    "Ops/sec": 2432
+  },
+  "Run 8": {
+    "Cores": 22,
+    "Total Ops": 72732,
+    "Ops/core": 3306,
+    "Ops/sec": 2416
+  },
+  "Run 9": {
+    "Cores": 22,
+    "Total Ops": 72460,
+    "Ops/core": 3293,
+    "Ops/sec": 2408
+  },
+  "Run 10": {
+    "Cores": 22,
+    "Total Ops": 73379,
+    "Ops/core": 3335,
+    "Ops/sec": 2438
+  },
+  "Averages": {
+    "Cores": 22.0,
+    "Total Ops": 75689.0,
+    "Ops/core": 3440.0,
+    "Ops/sec": 2512.5
+  }
+}
