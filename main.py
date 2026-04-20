@@ -4,7 +4,7 @@ import cpu
 import io_test
 import json
 if(__name__ == "__main__"):
-    multiple = input("Would you like to run multiple times?(Y/n): ")
+    multiple = input()
     if(multiple == "y" or multiple == "Y" or multiple == ""):
         #logging stuff
         os.makedirs("logs", exist_ok=True)
