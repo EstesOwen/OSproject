@@ -1,0 +1,68 @@
+{
+  "Run 1": {
+    "Read Total data(GB)": 84.76171875,
+    "Read Speed(GB/s)": 2.8194567731053786,
+    "Write Total data(GB)": 14.0078125,
+    "Write Speed(GB/s)": 0.465713901793278
+  },
+  "Run 2": {
+    "Read Total data(GB)": 87.61328125,
+    "Read Speed(GB/s)": 2.9148226417229095,
+    "Write Total data(GB)": 9.54296875,
+    "Write Speed(GB/s)": 0.31685672924436303
+  },
+  "Run 3": {
+    "Read Total data(GB)": 95.25,
+    "Read Speed(GB/s)": 3.1717988126261276,
+    "Write Total data(GB)": 11.76171875,
+    "Write Speed(GB/s)": 0.3902769426850074
+  },
+  "Run 4": {
+    "Read Total data(GB)": 95.43359375,
+    "Read Speed(GB/s)": 3.1774341644760615,
+    "Write Total data(GB)": 11.81640625,
+    "Write Speed(GB/s)": 0.3930403960475814
+  },
+  "Run 5": {
+    "Read Total data(GB)": 107.859375,
+    "Read Speed(GB/s)": 3.5926084743278968,
+    "Write Total data(GB)": 11.68359375,
+    "Write Speed(GB/s)": 0.3885577344839496
+  },
+  "Run 6": {
+    "Read Total data(GB)": 115.046875,
+    "Read Speed(GB/s)": 3.8315128545234622,
+    "Write Total data(GB)": 11.97265625,
+    "Write Speed(GB/s)": 0.3977652761132593
+  },
+  "Run 7": {
+    "Read Total data(GB)": 98.078125,
+    "Read Speed(GB/s)": 3.265991529609093,
+    "Write Total data(GB)": 11.62890625,
+    "Write Speed(GB/s)": 0.38661104802716767
+  },
+  "Run 8": {
+    "Read Total data(GB)": 115.42578125,
+    "Read Speed(GB/s)": 3.8441145532613312,
+    "Write Total data(GB)": 11.453125,
+    "Write Speed(GB/s)": 0.38062031018258524
+  },
+  "Run 9": {
+    "Read Total data(GB)": 114.5546875,
+    "Read Speed(GB/s)": 3.812590495299337,
+    "Write Total data(GB)": 11.40625,
+    "Write Speed(GB/s)": 0.3791470907036564
+  },
+  "Run 10": {
+    "Read Total data(GB)": 104.83984375,
+    "Read Speed(GB/s)": 3.4913335557354186,
+    "Write Total data(GB)": 11.80859375,
+    "Write Speed(GB/s)": 0.3922407299502072
+  },
+  "Averages": {
+    "Read Total data(GB)": 101.886328125,
+    "Read Speed(GB/s)": 3.392166385468701,
+    "Write Total data(GB)": 11.708203125,
+    "Write Speed(GB/s)": 0.38908301592310557
+  }
+}
