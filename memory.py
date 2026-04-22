@@ -2,7 +2,7 @@ import numpy as np
 import time
 
 def memory_benchmark():
-    # large array — well beyond L3 cache size (~1GB)
+    # big big big array
     arr = np.random.rand(128 * 1024 * 1024)
     DURATION = 30
     count = 0
